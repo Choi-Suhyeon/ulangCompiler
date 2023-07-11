@@ -82,3 +82,17 @@ static std::map<std::string, Kind> stringToKind = {
     {"[", Kind::LeftBraket},
     {"]", Kind::RightBraket},
 };
+
+static auto kindToString = [] {
+    auto result = std::map<Kind, std::string>();
+
+    for (auto & [key, val] : stringToKind) {
+        result[val] = key;
+    }
+
+    return result;
+}();
+
+auto toKind(std::string) -> Kind;
+
+auto toString(Kind) -> std::string;
