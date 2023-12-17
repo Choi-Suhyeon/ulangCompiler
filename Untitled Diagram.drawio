@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T11:07:56.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="vktwlaIsuJfJVwnPeZ9J" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T11:25:00.439Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="aNQyuxP6ATfFSp6F39t2" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="823" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,24 +165,74 @@
         </mxCell>
         <mxCell id="ZD5niyjhzPdkFjPMz-g3-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="760" as="sourcePoint" />
-            <mxPoint x="500" y="760" as="targetPoint" />
+            <mxPoint x="170" y="779" as="sourcePoint" />
+            <mxPoint x="500" y="779" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZD5niyjhzPdkFjPMz-g3-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="800" as="sourcePoint" />
-            <mxPoint x="500" y="800" as="targetPoint" />
+            <mxPoint x="170" y="819" as="sourcePoint" />
+            <mxPoint x="500" y="819" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZD5niyjhzPdkFjPMz-g3-68" value="write_js" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="730" width="100" height="30" as="geometry" />
+          <mxGeometry x="290" y="749" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZD5niyjhzPdkFjPMz-g3-69" value="compress" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="770" width="100" height="30" as="geometry" />
+          <mxGeometry x="290" y="789" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZD5niyjhzPdkFjPMz-g3-70" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="119" y="840" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-71" value="No" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-72" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-73" value="문자열 형태로 받은 JS 코드에 대해 어휘 분석을 진행하고 토큰열 형태로 반환" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="565" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-75" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="625" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-76" value="토큰열에 대해 식별자 난독화와 함께 문자열 암호화와 불리언 난독화를 진행하고 암난독화된 토큰열을 반환" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="620" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-77" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="695" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-78" value="토큰열에 대해 코드 난독화를 진행하고 난독화된 토큰열을 코드의 형태(문자열)로 변환 후 반환" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="690" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-81" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="105" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-82" value="ReactNativeFileFormat" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="90" width="140" height="130" as="geometry">
+            <mxRectangle x="650" y="105" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-83" value="read_js" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZD5niyjhzPdkFjPMz-g3-82">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-84" value="write_js" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZD5niyjhzPdkFjPMz-g3-82">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-86" value="compress" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZD5niyjhzPdkFjPMz-g3-82">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-85" value="decompress" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZD5niyjhzPdkFjPMz-g3-82">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-99" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="413" y="290" width="277" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-79" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="ZD5niyjhzPdkFjPMz-g3-99">
+          <mxGeometry width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-80" value="대상 파일의 확장자를 확인하고 만약 식별자가 apk, aab, ipa 중 하나가 아니면 에러를 발생. 확장자가 저 중에 하나라면 각각에 맞는 객체를 생성. 이때 생성되는 모든 객체는 추상클래스 ReactNativeFileFormat을 구현." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZD5niyjhzPdkFjPMz-g3-99">
+          <mxGeometry x="50" width="227" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
