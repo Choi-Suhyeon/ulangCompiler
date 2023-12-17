@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T10:42:36.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="Ffp_JrEBYNPFn_PnciGo" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T11:01:09.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="ooOxQ-4q8hgG6AK4Gr_D" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="682" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,10 +39,11 @@
         </mxCell>
         <mxCell id="ZD5niyjhzPdkFjPMz-g3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZD5niyjhzPdkFjPMz-g3-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="440" as="targetPoint" />
+            <mxPoint x="170" y="560" as="targetPoint" />
             <Array as="points">
               <mxPoint x="401" y="155" />
-              <mxPoint x="401" y="440" />
+              <mxPoint x="401" y="400" />
+              <mxPoint x="170" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -88,6 +89,44 @@
         </mxCell>
         <mxCell id="ZD5niyjhzPdkFjPMz-g3-24" value="Raise Error: Invlid Extension" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="340" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZD5niyjhzPdkFjPMz-g3-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-43" value="Object Implementing ReactNativeFileFormat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="132.5" width="130" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="440" as="sourcePoint" />
+            <mxPoint x="500" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-48" value="decompress" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="480" as="sourcePoint" />
+            <mxPoint x="500" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-50" value="read_js" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-52" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="520" as="sourcePoint" />
+            <mxPoint x="500" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-53" value="Js Source Code" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD5niyjhzPdkFjPMz-g3-54" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="560" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
